@@ -6,13 +6,13 @@
 * Define all 7 [JavaScript Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#javascript_types)
 * Implement JavaScript Conditionals
 
-### Debugging
+## Debugging
 
-### JavaScript Types
+## JavaScript Types
 
-### Variables
+## Variables
 
-### Conditionals
+## Conditionals
 
-### Scrope
+## Scrope
 
