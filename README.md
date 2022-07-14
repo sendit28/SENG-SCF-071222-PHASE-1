@@ -1,6 +1,8 @@
 # SENG-SCF-032122-PHASE-1
 
-## Forking and cloning this or any repo
+## Forking and cloning
+
+---
 
 To clone this repository into your local computer from this remote follow the steps below.
 
@@ -30,6 +32,8 @@ To clone this repository into your local computer from this remote follow the st
 # Extension | HotKeys | Requests
 
 ## Installing Live Server
+
+---
 
 1. Click on the extension button
 
