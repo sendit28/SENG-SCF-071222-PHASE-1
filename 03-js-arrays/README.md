@@ -6,12 +6,11 @@
 
 - Open Office Hours Discussion / Daily Stand up
   - First week recap
+- Pair Programming
 - Questions / Lessons and Lab Practice
 - Review
 - Callbacks
 - Arrays
-- Pair Programming
--
 
 ## SWBAT
 
