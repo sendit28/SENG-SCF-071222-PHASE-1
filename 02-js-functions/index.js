@@ -1,3 +1,15 @@
+changeTitle("Sendi")
+sendToPage("Mila")
+
+function doSomething () {
+    console.log("hello")
+    console.log("world")
+    console.log("!"
+    )
+}
+
+doSomething();
+
 // =============================================================================
 // Forking Clone
 // =============================================================================
