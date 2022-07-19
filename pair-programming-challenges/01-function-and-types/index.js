@@ -25,3 +25,29 @@
   BONUS: Allow for number inputs to be either String or Number
 */
 // Write your code here
+
+function myCalculator(operator, num1, num2) {
+  if (operator === '+') {
+    return num1 + num2
+  } 
+  else if (operator === '-') {  
+    return num1 - num2
+  }
+  else if (operator === '*') {
+    return num1 * num2
+  }
+  else if (operator === "/") {
+    return num1 / num2
+  }
+  else if (operator === "^") {
+    return num1 ^ num2
+  }
+}
+
+console.log(myCalculator("+", 1, 2))
+console.log(myCalculator("-", 1, 2))
+console.log(myCalculator("*", 1, 2))
+console.log(myCalculator("/", 4, 2))
+console.log(myCalculator("^", 2, 3))
+
+
