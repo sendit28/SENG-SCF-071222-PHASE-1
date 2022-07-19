@@ -109,3 +109,29 @@ house.listing.id; // Since `house.listing` returns an object you can then use do
 // Deleting object properties
 delete object.rooms; // This will delete the rooms key.
 ```
+
+# Looping through Objects
+
+```js
+/* 
+  There are a few ways you can loop through an object in js.
+*/
+const obj = {
+  name: "Eri",
+  favColor: "blue",
+};
+
+for (let key in obj) {
+  console.log(key); // => This will log: name, favColor
+  console.log(obj[key]); // => This will log: "Eri", "blue"
+}
+
+// Returns an array of all the keys of an object
+Object.keys(obj); // => ["name", "favColor"]
+
+// Returns an array of all of the values of an object
+Object.values(obj); // => ["Eri", "blue"]
+
+// Returns an array of arrays with key value pair
+Object.entries(obj); // => [["name", "Eri"], ["favColor", "blue"]]
+```
