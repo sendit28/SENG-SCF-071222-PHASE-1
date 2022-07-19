@@ -16,6 +16,11 @@ h1 {
   animation: slideFromLeft 0.5s linear;
 }
 
+p:hover {
+  transform: scale(2) skewY(5deg);
+  font-size: 800;
+}
+
 @keyframes bounce {
   0% {
     transform: translateY(0px);
