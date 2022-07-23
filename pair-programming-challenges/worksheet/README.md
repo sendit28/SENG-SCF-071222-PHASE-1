@@ -1,3 +1,24 @@
+<style>
+  table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cell {
+    height: 600px;
+    width: 300px;
+    border: 5px black double;
+    
+  }
+  .cell{
+    width: 30vw;
+  }
+  .cell__solution{
+    width: 70vw;
+  }
+
+</style>
+
 <table>
   <tr>
     <th>Questions</th>
@@ -48,24 +69,3 @@
     <td class="cell cell__solution"></td>
   </tr>
 </table>
-
-<style>
-  table{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .cell {
-    height: 600px;
-    width: 300px;
-    border: 5px black double;
-    
-  }
-  .cell{
-    width: 30vw;
-  }
-  .cell__solution{
-    width: 70vw;
-  }
-
-</style>
