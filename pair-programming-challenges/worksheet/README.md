@@ -5,7 +5,7 @@
     justify-content: center;
   }
   .cell {
-    height: 600px;
+    height: 500px;
     width: 300px;
     border: 5px black double;
     
