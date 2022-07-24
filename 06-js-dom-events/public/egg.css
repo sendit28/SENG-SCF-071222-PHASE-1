@@ -20,6 +20,20 @@ p:hover {
   font-weight: 800;
 }
 
+table{
+  border: 2px solid black;
+  width: 80vw;
+  text-align: center;
+  border-collapse:separate;
+  border-spacing: 10px 15px;
+}
+
+td{
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+
 @keyframes bounce {
   0% {
     transform: translateY(0px);
