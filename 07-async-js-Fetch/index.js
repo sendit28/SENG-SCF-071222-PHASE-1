@@ -1,34 +1,5 @@
-
-
-
-// Dom Manipulation Review (Target the new form)
-// =============================================================================
-
-// const form = document.getElementById("poke-form")
-// Gives us the first Input found
 const firstInput = document.querySelector("input")
-
-// console.log(firstInput.value)
-// console.log(firstInput)
-// What are events? (Taking a look at different events with the same callback)
-// =============================================================================
-
-// const callback = (event) => console.log(event)
-
-// document.querySelector('h1').addEventListener("click", callback)
-// document.addEventListener("scroll", callback)
-// const listOfImages = document.querySelectorAll('.poke__img')
-// Array.from(listOfImages).map(img => img.addEventListener("mouseenter", callback))
-// document.querySelector('.poke__img').addEventListener("mouseleave", callback)
-// document.addEventListener("wheel", callback)
-
-// Removing an Element by adding a button to the card
-// =============================================================================
-
-
-
 pokemons.forEach((pokemon) => renderAPokeCard(pokemon))
-
 
 function renderAPokeCard(pokemonObj){
 
@@ -65,24 +36,9 @@ function renderAPokeCard(pokemonObj){
   li.append(h3, img, p, button);
   button.addEventListener('click', (event) => {
     event.target.parentElement.remove()
-    // li.remove()
-    // This works only because the li is defined the same time that 
-    // the event listner is defined. 
-    // In a lot of cases we define the event listener outside of where
-    // the render happened
   } )
 }
-
-// Submitting The Form
-// =============================================================================
-
-
-// First thing we need to do is select the form!
-// Add an event listener to the FORM
-// NOTE DO NOT ADD THE SUBMIT EVENT LISTENER TO BUTTON
-
 const form = document.getElementById("poke-form")
-console.log(form);
 
 form.addEventListener("submit", (e) => {
     e.preventDefault() // Prevents refresh
@@ -94,24 +50,10 @@ form.addEventListener("submit", (e) => {
         imgUrl: imgUrl, 
         weight: weight
     }
-    console.log(pokeObj)
-
-    // COPY PASTE ALL THAT CODE ABOVE TO RENDER A POKECARD!
 
     renderAPokeCard(pokeObj);
     e.target.reset(); // Resets input fields!
 }) 
-
-
-// WHEN WE CLICK ON THE BUTTON THE PAGE RELOADS WTH!
-
-// Bonus: Change to dark mode by pressing the '.' key
-// =============================================================================
-
-
-
-// STEP 1 NEED EVENT LISTENER
-// keydown
 
 document.addEventListener("keydown", (event) => {
     console.log(event);
@@ -126,17 +68,26 @@ document.addEventListener("keydown", (event) => {
     
 })
 
-// STEP 2 WE NEED TO CHANGE THE BACKGROUND COLOR = black
-
-// STEP 3 WE NEED TO CHANGE THE FONT COLOR
-
-// Bonus: Make the picture flip between different pictures when mouseenter and when mouseleaves
+// Bonus: Make the picture zoom in when mouseenter, then zoom out when mouseleaves
 // =============================================================================
 
+// Bonus: Make the picture change when mouseenter, then zoom out when mouseleaves
+// =============================================================================
 
+// Introduce the Web and Request Response Flow
+// =============================================================================
 
+// Talk about HTTP
+// =============================================================================
 
+// HTTP REQUEST (GET, POST, PATCH, PUT, DELETE)
+// =============================================================================
 
+// CREATE OUR OWN SERVERS (JSON, JSON-SERVER)
+// =============================================================================
+
+// FETCH AND PROMISE
+// =============================================================================
 
 
 
