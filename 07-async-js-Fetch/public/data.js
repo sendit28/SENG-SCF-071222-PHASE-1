@@ -1,305 +1,305 @@
 let pokemons = [
   {
-    name: "bulbasaur",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-    weight: 69,
+      name: "venusaur",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/3.png",
+      weight: 1000
   },
   {
-    name: "ivysaur",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
-    weight: 130,
+      name: "charmander",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png",
+      weight: 85
   },
   {
-    name: "venusaur",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
-    weight: 1000,
+      name: "charmeleon",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/5.png",
+      weight: 190
   },
   {
-    name: "charmander",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
-    weight: 85,
+      name: "squirtle",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png",
+      weight: 90
   },
   {
-    name: "charmeleon",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
-    weight: 190,
+      name: "wartortle",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/8.png",
+      weight: 225
   },
   {
-    name: "charizard",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
-    weight: 905,
+      name: "caterpie",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10.png",
+      weight: 29
   },
   {
-    name: "squirtle",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
-    weight: 90,
+      name: "metapod",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/11.png",
+      weight: 99
   },
   {
-    name: "wartortle",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
-    weight: 225,
+      name: "weedle",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/13.png",
+      weight: 32
   },
   {
-    name: "caterpie",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
-    weight: 29,
+      name: "kakuna",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/14.png",
+      weight: 100
   },
   {
-    name: "metapod",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
-    weight: 99,
+      name: "ivysaur",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+      weight: 130
   },
   {
-    name: "weedle",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
-    weight: 32,
+      name: "blastoise",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/9.png",
+      weight: 855
   },
   {
-    name: "kakuna",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
-    weight: 100,
+      name: "beedrill",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/15.png",
+      weight: 295
   },
   {
-    name: "blastoise",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
-    weight: 855,
+      name: "pidgey",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/16.png",
+      weight: 18
   },
   {
-    name: "beedrill",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
-    weight: 295,
+      name: "bulbasaur",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
+      weight: 69
   },
   {
-    name: "pidgey",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
-    weight: 18,
+      name: "pidgeotto",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/17.png",
+      weight: 300
   },
   {
-    name: "pidgeotto",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
-    weight: 300,
+      name: "pidgeot",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/18.png",
+      weight: 395
   },
   {
-    name: "butterfree",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
-    weight: 320,
+      name: "rattata",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/19.png",
+      weight: 35
   },
   {
-    name: "pidgeot",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
-    weight: 395,
+      name: "raticate",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/20.png",
+      weight: 185
   },
   {
-    name: "spearow",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
-    weight: 20,
+      name: "spearow",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/21.png",
+      weight: 20
   },
   {
-    name: "fearow",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
-    weight: 380,
+      name: "fearow",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/22.png",
+      weight: 380
   },
   {
-    name: "raichu",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
-    weight: 300,
+      name: "arbok",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/24.png",
+      weight: 650
   },
   {
-    name: "rattata",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
-    weight: 35,
+      name: "pikachu",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png",
+      weight: 60
   },
   {
-    name: "raticate",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
-    weight: 185,
+      name: "raichu",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/26.png",
+      weight: 300
   },
   {
-    name: "ekans",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
-    weight: 69,
+      name: "sandshrew",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/27.png",
+      weight: 120
   },
   {
-    name: "arbok",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
-    weight: 650,
+      name: "sandslash",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/28.png",
+      weight: 295
   },
   {
-    name: "pikachu",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
-    weight: 60,
+      name: "nidoran-f",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/29.png",
+      weight: 70
   },
   {
-    name: "sandshrew",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
-    weight: 120,
+      name: "nidorina",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/30.png",
+      weight: 200
   },
   {
-    name: "sandslash",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
-    weight: 295,
+      name: "nidoqueen",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/31.png",
+      weight: 600
   },
   {
-    name: "nidorina",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
-    weight: 200,
+      name: "nidoran-m",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/32.png",
+      weight: 90
   },
   {
-    name: "nidoran-f",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
-    weight: 70,
+      name: "nidoking",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/34.png",
+      weight: 620
   },
   {
-    name: "nidoqueen",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
-    weight: 600,
+      name: "clefairy",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/35.png",
+      weight: 75
   },
   {
-    name: "nidoran-m",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
-    weight: 90,
+      name: "clefable",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/36.png",
+      weight: 400
   },
   {
-    name: "nidorino",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
-    weight: 195,
+      name: "vulpix",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/37.png",
+      weight: 99
   },
   {
-    name: "nidoking",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
-    weight: 620,
+      name: "jigglypuff",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/39.png",
+      weight: 55
   },
   {
-    name: "clefairy",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
-    weight: 75,
+      name: "wigglytuff",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/40.png",
+      weight: 120
   },
   {
-    name: "clefable",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
-    weight: 400,
+      name: "zubat",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/41.png",
+      weight: 75
   },
   {
-    name: "vulpix",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
-    weight: 99,
+      name: "golbat",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/42.png",
+      weight: 550
   },
   {
-    name: "ninetales",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
-    weight: 199,
+      name: "butterfree",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png",
+      weight: 320
   },
   {
-    name: "jigglypuff",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
-    weight: 55,
+      name: "oddish",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/43.png",
+      weight: 54
   },
   {
-    name: "wigglytuff",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
-    weight: 120,
+      name: "gloom",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/44.png",
+      weight: 86
   },
   {
-    name: "zubat",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
-    weight: 75,
+      name: "vileplume",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/45.png",
+      weight: 186
   },
   {
-    name: "golbat",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
-    weight: 550,
+      name: "paras",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/46.png",
+      weight: 54
   },
   {
-    name: "oddish",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
-    weight: 54,
+      name: "parasect",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/47.png",
+      weight: 295
   },
   {
-    name: "gloom",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
-    weight: 86,
+      name: "venonat",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/48.png",
+      weight: 300
   },
   {
-    name: "vileplume",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
-    weight: 186,
+      name: "venomoth",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/49.png",
+      weight: 125
   },
   {
-    name: "paras",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
-    weight: 54,
+      name: "ninetales",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/38.png",
+      weight: 199
   },
   {
-    name: "parasect",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
-    weight: 295,
+      name: "ekans",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/23.png",
+      weight: 69
   },
   {
-    name: "venonat",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
-    weight: 300,
+      name: "nidorino",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/33.png",
+      weight: 195
   },
   {
-    name: "venomoth",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
-    weight: 125,
+      name: "diglett",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/50.png",
+      weight: 8
   },
   {
-    name: "diglett",
-    imgUrl:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
-    weight: 8,
-  },
-];
+      name: "charizard",
+      frontImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      backImg: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png",
+      weight: 905
+  }
+]
 
 // HOW I GOT THE DATA USING API
 // let pokemons = [];
@@ -320,9 +320,10 @@ let pokemons = [
 
 // function formatPokemonData(pokeData) {
 //   const name = pokeData.name;
-//   const imgUrl = pokeData.sprites.other["official-artwork"].front_default;
+//   const frontImg = pokeData.sprites.front_default;
+//   const backImg = pokeData.sprites.back_default
 //   const weight = pokeData.weight;
-//   pokemons.push({ name, imgUrl, weight });
+//   pokemons.push({ name, frontImg, backImg, weight });
 // }
 
 // fetchUrl();
