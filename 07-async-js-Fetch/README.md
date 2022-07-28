@@ -5,13 +5,13 @@ Before Lecture
 * Also install json server
     * `npm install -g json-server`
 
-* 6:00-6:15pm Review Challenge
+* 6:00-6:15pm Fill out [Survey](https://forms.gle/LWYgZFoVWqz3XuJ46)
 * 6:15 - 6:30pm Review
 * 6:30 - 7:00pm How the internet work / JSON Server
 * 7:00 - 7:10pm Break
 * 7:10 - 8:00pm Async and Fetch
-* 8:00 - 8:15pm break
-* 8:15 - 9:00pm Canvas Self Study
+* 8:00 - 8:10pm break
+* 8:10 - 9:00pm Canvas Self Study
 
 ## SWBAT
 - Explain the request-response cycle
@@ -51,8 +51,9 @@ In JavaScript, we can achieve this through HTTP requests.
 * Readable
 * Stateless
 * [http vs https](https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/#:~:text=HTTPS%20is%20HTTP%20with%20encryption,uses%20HTTPS%20has%20https%3A%2F%2F.)
+       
         "The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web and is used to load web pages using hypertext links. HTTP is an application layer protocol designed to transfer information between networked devices and runs on top of other layers of the network protocol stack. A typical flow over HTTP involves a client machine making a request to a server, which then sends a response message."
-        [ Cloudflare, "What is HTTP?" 2022](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+[ Cloudflare, "What is HTTP?" 2022](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)
 
 In other words, HTTP is the language used by the client(browser). The server is used to communicate and exchange responses, including data.
 
@@ -82,8 +83,8 @@ HTTP Methods
 
 ### JSON SERVER Installation
 - Install JSON Server by running the following command in the terminal: `npm install -g json-server`
-- To start the JSON server, run `json-server --watch db.json` while in the directory that contains the `db.json` file i.e. `SCF-SENG.../07-async-js-fetch`
-- For this project, we will start with the following endpoint: `http://localhost:3000/characters`
+- To start the JSON server, run `json-server --watch db.json` while in the directory that contains the `db.json` file i.e. `SENG-SCF.../07-async-js-fetch`
+- For this project, we will start with the following endpoint: `http://localhost:3000/pokemons`
 
 ## Fetch & Promise
 .fetch() is a method that allows us to create an HTTP request. To Read, CREATE, UPDATE or DELETE resources.
